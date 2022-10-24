@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <script src="https://kit.fontawesome.com/53f24b7f5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="" aria-label="logo" onclick="window.location.href='index.html'"></a>
+
+    
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shop.html" onclick="window.location.href='shop.html'">Shop</a></li>
+                <li><a href="blog.html" onclick="window.location.href='blog.html'">Blog</a></li>
+                <li><a href="about.html" onclick="window.location.href='about.html'">About</a></li>
+                <li><a  href="contact.html"  onclick="window.location.href='contact.html'">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html" aria-label="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" aria-label="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html" aria-label="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">        
+        <h2>#let's talk<h2>      
+        <p>LEAVE A MESSAGE we love to hear from you </p>        
+    </section > 
+    
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quanity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Tropical Shirts</td>
+                    <td>50$</td>
+                    <td><input type="number" value="1" aria-label="concacmetghe"></td>
+                    <td>50$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Summertime Shirts</td>
+                    <td>50$</td>
+                    <td><input type="number" value="1" aria-label="concacmetghe"></td>
+                    <td>50$</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Flower Shirts</td>
+                    <td>50$</td>
+                    <td><input type="number" value="1" aria-label="concacmetghe"></td>
+                    <td>50$</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtoal</td>
+                    <td>150$</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>150$</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+
+        
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 72 Le Thanh Ton, Ben Nghe ward, District 1, HCM city</p>
+            <p><strong>Phone:</strong>+09 8888 4567 / (+84) 90 9998 789  </p>
+            <p><strong>Hours:</strong>10:00 - 22:00, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="">
+                     <i class="fab fa-facebook-f"></i>
+                     <i class="fab fa-twitter"></i>
+                     <i class="fab fa-instagram"></i>
+                     <i class="fab fa-pinterest"></i>
+                     <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#" aria-label="#">About Us</a>
+            <a href="#"aria-label="#">Delivery Information</a>
+            <a href="#" aria-label="#">Privacy Policy</a>
+            <a href="#" aria-label="#">Term Conditions</a>
+            <a href="#" aria-label="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#" aria-label="#">Sign In</a>
+            <a href="#"aria-label="#">View Cart</a>
+            <a href="#" aria-label="#">My Wishlish</a>
+            <a href="#" aria-label="#">Track My Order</a>
+            <a href="#" aria-label="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Apple or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2022, Tech2etc - Cara </p>
+        </div>
+
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
