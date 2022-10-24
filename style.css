@@ -771,6 +771,8 @@ footer .copyright{
    
 }
 
+    
+
 #form-details{
     display: flex;
     justify-content: space-between;
@@ -1074,6 +1076,11 @@ footer .copyright{
 
     #contact-details .map{
         width: 100%;
+            
+    }
+
+    #contact-details .map iframe{
+        align-items: left;
             
     }
 
